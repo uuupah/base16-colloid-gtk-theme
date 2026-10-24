@@ -1,0 +1,71 @@
+// Default Theme Color Palette ~~everforest~~ onedark 
+// Red
+$red-light: #e06c75; // #E67E80; base08 dark
+$red-dark: #ca1243; // #f85552; base08 light
+
+// Pink
+$pink-light: #c678dd; // #d3869b; base0e dark (opinionated)
+$pink-dark: #a626a4; // #b16286; base0e light (opinionated)
+
+// Purple
+$purple-light: #c678dd; // #D699B6; base0e dark
+$purple-dark: #a626a4; // #df69ba; base0e light
+
+// Blue
+$blue-light: #61afef; // #7fbbb3; base0d dark
+$blue-dark: #3a94c5; // #4078f2; base0d light
+
+// Teal (aqua)
+$teal-light: #56b6c2; // #83C092; base0c dark
+$teal-dark: #0184bc; // #35a77c; base0c light
+
+// Green
+$green-light: #98c379; // #A7C080; base0b dark
+$green-dark: #50a14f; // #8da101; base0b light
+
+// Yellow
+$yellow-light: #e5c07b; // #DBBC7F; base0a dark
+$yellow-dark: #c18401; // #dfa000; base0a light
+
+// Orange
+$orange-light: #d19a66; // #E69875; base09 dark
+$orange-dark: #d75f00; // #f57d26; base09 light
+
+// Grey
+$grey-050: #c8ccd4; // #fdf6e3; base07 dark
+$grey-100: #c8ccd4; // #f4f0d9; TODO programatic
+$grey-150: #b6bdca; // #efebd4; TODO programatic
+$grey-200: #b6bdca; // #e6e2cc; base06 dark
+$grey-250: #b6bdca; // #e0dcc7; base06 dark TODO programatic (opinionated)
+$grey-300: #abb2bf; // #b9c0ab; base05 dark (opinionated)
+$grey-350: #565c64; // #9da9a0; base04 dark
+$grey-400: #545862; // #859289; base03 dark
+$grey-450: #545862; // #7a8478; base03 dark TODO programatic (opinionated
+$grey-500: #545862; // #56633f; TODO programatic
+$grey-550: #3e4451; // #495156; TODO programatic
+$grey-600: #3e4451; // #414b50; base02 dark (opinionated)
+$grey-650: #353b45; // #343f44; base01 dark
+$grey-700: #282c34; // #2d353b; base00 dark
+$grey-750: #22262D; // #272e33; "#$(magick xc:"${base00}" -fill black -colorize 14% -depth 8 -format "%[hex:u]" info:)"
+$grey-800: #1F2229; // #232a2e; "#$(magick xc:"${base00}" -fill black -colorize 22% -depth 8 -format "%[hex:u]" info:)"
+$grey-850: #1A1D22; // #1e2326; "#$(magick xc:"${base00}" -fill black -colorize 34% -depth 8 -format "%[hex:u]" info:)"
+$grey-900: #0B0C0F; // #0d0e11; "#$(magick xc:"${base00}" -fill black -colorize 72% -depth 8 -format "%[hex:u]" info:)"
+$grey-950: #020203; // #020203; "#$(magick xc:"${base00}" -fill black -colorize 95% -depth 8 -format "%[hex:u]" info:)"
+
+// White
+$white: #ffffff; // #fffbef; base07 dark
+
+// Black
+$black: #000000; // #1e2326;
+
+// Button
+$button-close: #e06c75; // if($variant == 'light', #e67e80, #ff9c9e); base08 dark
+$button-max: #98c379; // if($variant == 'light', #93ac6c, #b6cf8f); base0b dark
+$button-min: #e5c07b; // if($variant == 'light', #d6b77a, #eacb8e); base0a dark
+
+// Link
+$links: #5bbae3; // #5bbae3; TODO
+
+// Theme
+$default-light: $blue-light;
+$default-dark: $blue-dark;

@@ -256,7 +256,48 @@ make_gtkrc() {
         ;;
     esac
   fi
-
+  # TODO programatic
+  if [[ "$scheme" == '-Onedark' ]]; then
+    case "$theme" in
+      '')
+        theme_color_dark='#3a94c5'
+        theme_color_light='#61afef'
+        ;;
+      -Purple)
+        theme_color_dark='#a626a4'
+        theme_color_light='#c678dd'
+        ;;
+      -Pink)
+        theme_color_dark='#a626a4'
+        theme_color_light='#c678dd'
+        ;;
+      -Red)
+        theme_color_dark='#ca1243'
+        theme_color_light='#e06c75'
+        ;;
+      -Orange)
+        theme_color_dark='#d75f00'
+        theme_color_light='#d19a66'
+        ;;
+      -Yellow)
+        theme_color_dark='#c18401'
+        theme_color_light='#e5c07b'
+        ;;
+      -Green)
+        theme_color_dark='#50a14f'
+        theme_color_light='#98c379'
+        ;;
+      -Teal)
+        theme_color_dark='#0184bc'
+        theme_color_light='#56b6c2'
+        ;;
+      -Grey)
+        theme_color_dark='#3e4451' # grey-550
+        theme_color_light='#b6bdca' # grey-200
+        ;;
+    esac
+  fi
+# END TODO
   if [[ "$blackness" == 'true' ]]; then
     case "$scheme" in
       '')
@@ -307,6 +348,16 @@ make_gtkrc() {
         titlebar_light='#e6e9ef'
         titlebar_dark='#11111b'
         ;;
+        # TODO programatic
+      -Onedark)
+        background_light='#c8ccd4' # grey-050
+        background_dark='#0B0C0F' # grey-900
+        background_darker='#1A1D22' # grey-850
+        background_alt='1F2229' # grey-800
+        titlebar_light='#c8ccd4' # grey-100 TODO do this properly
+        titlebar_dark='#020203' # grey-950
+        ;;
+        # end TODO
     esac
   else
     case "$scheme" in
@@ -358,6 +409,16 @@ make_gtkrc() {
         titlebar_light='#e6e9ef'
         titlebar_dark='#24273a'
         ;;
+        # TODO programatic
+      -Onedark)
+        background_light='#c8ccd4' # grey-050
+        background_dark='#282c34' # grey-700
+        background_darker='#353b45' # grey-650
+        background_alt='#3e4451' # grey-600
+        titlebar_light='#c8ccd4' # grey-100 TODO do this properly
+        titlebar_dark='#22262D' # grey-750
+        ;;
+        # end TODO
     esac
   fi
 

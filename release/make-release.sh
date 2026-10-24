@@ -5,7 +5,7 @@ THEME_DIR=$(cd $(dirname $0) && pwd)
 THEME_NAME=Colloid
 
 _THEME_VARIANTS=('' '-Purple' '-Pink' '-Red' '-Orange' '-Yellow' '-Green' '-Teal' '-Grey')
-_SCHEME_VARIANTS=('' '-Nord' '-Dracula' '-Gruvbox' '-Everforest' '-Catppuccin')
+_SCHEME_VARIANTS=('' '-Nord' '-Dracula' '-Gruvbox' '-Everforest' '-Catppuccin' '-Onedark')
 _COLOR_VARIANTS=('' '-Light' '-Dark')
 _SIZE_VARIANTS=('' '-Compact')
 
